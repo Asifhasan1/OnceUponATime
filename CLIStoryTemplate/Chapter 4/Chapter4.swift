@@ -6,5 +6,5 @@
 import Foundation
 
 func chapterFour() {
-    // Your portion of the story goes here
+  print ("Moral of thr story is be kind to people and have sympathy for those that are different.")  // Your portion of the story goes here
 }
