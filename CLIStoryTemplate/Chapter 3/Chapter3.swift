@@ -6,5 +6,12 @@
 import Foundation
 
 func chapterThree() {
-}
-
+   
+        //        let text: String
+        print ("Chapter 3")
+        
+            
+            
+        }
+        
+        
