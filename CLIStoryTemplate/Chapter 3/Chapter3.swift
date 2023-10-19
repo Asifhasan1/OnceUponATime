@@ -6,7 +6,12 @@
 import Foundation
 
 func chapterThree() {
-}
-
-    // Your portion of the story goes here
-
+   
+        //        let text: String
+        print ("Chapter 3")
+        
+            
+            
+        }
+        
+        
