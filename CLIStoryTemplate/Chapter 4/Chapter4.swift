@@ -6,7 +6,13 @@
 import Foundation
 
 func chapterFour() {
-    var storyIsOver: Bool = false
-  print ("Moral of the story is be kind to people and have sympathy for those that are different.")  // Your portion of the story goes here
-    storyIsOver = true
+    
+    let story = "Moral of the story is"
+    let action = "be kind to people and have sympathy for those that are different."
+    
+
+    
+    let message = "\(story) \(action)"
+    print(message)
+
 }
