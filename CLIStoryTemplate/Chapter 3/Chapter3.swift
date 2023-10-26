@@ -13,21 +13,13 @@ func chapterThree() {
     print ("\(maincharacterName) said to \(friendName) I'm not sure that I want to save everyone. ")
     print ("\(friendName) said to \(maincharacterName) I understand and I will be your friend regardless.")
     
-    var isSave: Bool = true
+    let isSave: Bool = true
     if isSave {
-        if isSave {
             print("\(maincharacterName) decided to go to the rocket and save \(friendName) and the \(bullyName) because she did not want to lose her dear friend \(friendName) .")
-//        } else {
-//            print("\(maincharacterName) decided that she wanted to leave Dinosaur Island and move on from being bullied. She went to the rocket and changed to coordinates to an unknown planet.")
-        }
-        //
-        //    }
-        //    if isRaining == true {
-        //        print("stay")
-        //        isSave = Bool.random()
-        //
-        //        if isSave{
-        //            print(\(maincharacterName) will )
+       }
+        else
+        { print ("\(maincharacterName) decided that she wanted to leave Dinosaur Island and move on from being bullied. She went to the rocket and changed the coordinates to an unknown planet to have a fresh start.")}
+       
         
         
         
@@ -41,4 +33,4 @@ func chapterThree() {
     
     
     
-}
+
