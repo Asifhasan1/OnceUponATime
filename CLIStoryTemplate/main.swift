@@ -8,7 +8,7 @@ import Foundation
 let Title = "Once Upon A Time"
 let friendName = "Jack"
 let maincharacterName = "Lisa"
-let bullyName = "Dinosaurs"
+var bullyName = "Dinosaurs"
 
 func readStory() {
     chapterOne()
