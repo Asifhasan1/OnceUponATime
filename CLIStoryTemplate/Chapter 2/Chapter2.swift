@@ -21,7 +21,7 @@ func beingMean(){
 //        lisaIsKind = true
     }
     else  {
-        print("Lisa start to be mean to everyone , and she was thinking to end her relationship with jack")
+        print("Lisa start to be mean to everyone , and she was thinking to end her relationship with jack , ")
     }
 }
 
