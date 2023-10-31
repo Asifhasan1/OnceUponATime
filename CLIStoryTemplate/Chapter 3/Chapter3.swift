@@ -39,10 +39,10 @@ func chapterThree() {
     
     //    print ("\(friendName) said to \(maincharacterName) if you do not go into the rocket the island will be destroyed, we all will be destroyed.  ")
     
-           print("\(friendName) said that")
+           print("\(friendName) said that if you don't help")
     //    inner loop
-    var noun = ["The water", " The trees", " The creators", "Everything"]
-    var actions = ["dry", "die", "no longer exist", "end"]
+    var noun = ["the water", " the trees", " the creators", "everything"]
+    var actions = ["dry", "die", "no longer exist", "end!"]
     
     for i in 0..<noun.count {
         var str = "\(noun[i]) will"
