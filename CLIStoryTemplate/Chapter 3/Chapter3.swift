@@ -38,7 +38,7 @@ func chapterThree() {
     
 //    condition
     let isSave: Bool = true
-    if isSave {
+        if isSave {
             print("\(maincharacterName) decided to go to the rocket and save \(friendName) and the \(bullyName) because she did not want to lose her dear friend \(friendName) .")
        }
         else
@@ -48,7 +48,6 @@ func chapterThree() {
         
         
         
-    }
     
     
     
