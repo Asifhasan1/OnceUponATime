@@ -9,6 +9,7 @@ func chapterThree() {
     
     //    func tellStory() {
     print ("Chapter 3")
+    
     print ("\(friendName) came to \(maincharacterName) to tell her some important news!")
     
     func saveUs ( person: String, from: String) -> String {
@@ -16,7 +17,23 @@ func chapterThree() {
         return saveUs
     }
     print(saveUs(person: " Jack" , from: " showed Lisa the rocket"))
-    
+//    struct
+    struct Rocket {
+        var color: String
+        var windowShape: String
+        
+        func describe() {
+            print("The rocket was \(color) with an \(windowShape) window.")
+        }
+    }
+    let roc = Rocket(color: "silver", windowShape: "oval")
+    var rocCopy = roc
+    rocCopy.color = "red"
+  
+    roc.describe()
+    rocCopy.describe()
+ 
+//
     print ("\(maincharacterName) said to \(friendName) I'm not sure that I want to save everyone. ")
     print ("\(maincharacterName) walked away from \(friendName) to think about her decision.")
     
