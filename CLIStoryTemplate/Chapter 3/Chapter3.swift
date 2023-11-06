@@ -11,7 +11,7 @@ func chapterThree() {
     print ("Chapter 3")
     
     print ("\(friendName) came to \(maincharacterName) to tell her some important news!")
-    
+//    function
     func saveUs ( person: String, from: String) -> String {
         let saveUs = "\(maincharacterName), we need you. You are the only one that can fit in the rocket." + person + from + "!"
         return saveUs
@@ -54,9 +54,7 @@ func chapterThree() {
         print("What do you think, \(decision)")
     }
     
-    //    print ("\(friendName) said to \(maincharacterName) if you do not go into the rocket the island will be destroyed, we all will be destroyed.  ")
-    
-           print("\(friendName) said that if you don't help")
+           print("\(friendName) said that if you don't help the island and everything here will be destroyed.")
     
     //    inner loop
     var noun = ["the water", " the trees", " the creators", "everything"]
@@ -76,8 +74,7 @@ func chapterThree() {
         
         print ("\(friendName) said I don't want to lose my friends and the island, but I understand if you don't want to help.")
     
-    print ("\(maincharacterName) left \(friendName) and traveled to the rocket site.")
-    print ("\(maincharacterName) walked into the huge building")
+    print ("\(maincharacterName) left \(friendName) and traveled back to the rocket site.")
     
         //    condition
         let isSave: Bool = true
