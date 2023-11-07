@@ -84,8 +84,26 @@ func chapterThree() {
         else
         { print ("\(maincharacterName) decided that she wanted to leave the island and move on from being bullied. She went to the rocket and changed the coordinates to an unknown planet to start fresh.")}
         
+//    enumeration
+    
+    enum RocketButtonSize {
+      case small, medium, large
+    }
+
+    var size = RocketButtonSize.large
+
+    switch(size) {
+      case .small:
+        print("\(maincharacterName) pressed the small button.")
+
+      case .medium:
+        print("\(maincharacterName) pressed the medium button.")
+
+       case .large:
+         print("\(maincharacterName) pressed the large button.");
+    }
         
-        
+    print("The rocket launched high high into the sky.")
         
         
         
