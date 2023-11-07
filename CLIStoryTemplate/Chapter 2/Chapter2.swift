@@ -8,16 +8,15 @@ import Foundation
 func chapterTwo() {
     // Your portion of the story goes here
    
-    
+
     print("Since Jack and Lisa start hang out together , the other dragons start to make fun of Jack for being a friend with a human . ")
     beingMean()
 }
 
 var lisaIsKind = true
- 
 
 func beingMean(){
-      var adjectives: [String] = ["kind", "nice", "sweetheart", "friendly"]
+    let adjectives: [String] = ["kind", "nice", "sweetheart", "friendly"]
       let randomAdjective = adjectives.randomElement() ?? "nice"
 
       
@@ -30,12 +29,9 @@ func beingMean(){
 }
 
 }
-
-
-
 func lisaShoutedLoudly () {
     
-    var shoutedLoud = ["mean" , "rude" , "bad" ]
+    let shoutedLoud = ["mean" , "rude" , "bad" ]
     for lisa in shoutedLoud {
         
         print(" The other day , Lisa said to jack : I can't handle it anymore your friends are so \(shoutedLoud)")
@@ -44,5 +40,4 @@ func lisaShoutedLoudly () {
         
     }
 }
-
 
