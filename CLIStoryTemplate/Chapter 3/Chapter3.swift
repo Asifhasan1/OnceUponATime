@@ -54,6 +54,7 @@ func chapterThree() {
         print("What do you think, \(decision)")
     }
     
+
     //    print ("\(friendName) said to \(maincharacterName) if you do not go into the rocket the island will be destroyed, we all will be destroyed.  ")
     
            print("\(friendName) said that if you don't help")
@@ -64,6 +65,7 @@ func chapterThree() {
     
     for i in 0..<noun.count {
         var str = "\(noun[i]) will"
+
         
         for _ in 1...3 {
             str += " \(actions[i])"
@@ -72,9 +74,6 @@ func chapterThree() {
         print(str)
         
         
-    }
-        
-        print ("\(friendName) said I don't want to lose my friends and the island, but I understand if you don't want to help.")
     
     print ("\(maincharacterName) left \(friendName) and traveled to the rocket site.")
     print ("\(maincharacterName) walked into the huge building")
