@@ -5,9 +5,55 @@
 
 import Foundation
 
-func chapterTwo() {
-    // Your portion of the story goes here
-   
+func chapterTwo(){
+    print("Chapter 2")
+    struct chapterTwo1 {
+        
+        var name = String()
+        var animal = String()
+        
+        
+        func startBy()  {
+            var girlName = name
+            let animalName = animal
+            var myInfo = chapterTwo1(name: "lisa", animal: "Jack")
+            
+            print ("Since \(myInfo.name) and \(myInfo.animal) start hang out together , the other dragons start to make fun of jack for being a friend with a human")
+        }
+        
+        func beingNice() {
+            
+            enum Act: String, CaseIterable {
+                case kind , nice , friendly
+                
+                func partTwo ()  {
+                    
+                    
+                    
+                    switch self {
+                        
+                    case .kind :
+                        print ("lisa was a \(Act.kind) person !  despite this , they never accept her as a friend.")
+                    case .nice :
+                        print ("lisa was a \(Act.nice) person !  despite this , they never accept her as a friend.")
+                    case .friendly:
+                        print ("print lisa was a \(Act.friendly) person !  despite this , they never accept her as a friend.")
+                        
+                        
+                    }
+                    
+                }
+                
+            }
+            if let randomEnum = Act.allCases.randomElement() {
+               return randomEnum.partTwo()
+            }
+        }
+    }
+    var printOut = chapterTwo1()
+    printOut.startBy()
+    var runBeingNice =  chapterTwo1()
+    runBeingNice.beingNice()
     
     /*
      As days passed, their treatment of Lisa grew harsher. They went out of their way to be mean, hoping she would distance herself from Jack.
