@@ -17,7 +17,7 @@ func chapterThree() {
         return saveUs
     }
     print(saveUs(person: " Jack" , from: " showed Lisa the rocket"))
-//    struct
+    //    struct
     struct Rocket {
         var color: String
         var windowShape: String
@@ -29,11 +29,11 @@ func chapterThree() {
     let roc = Rocket(color: "silver", windowShape: "oval")
     var rocCopy = roc
     rocCopy.color = "red"
-  
+    
     roc.describe()
     rocCopy.describe()
- 
-//
+    
+    //
     print ("\(maincharacterName) said to \(friendName) I'm not sure that I want to save everyone. ")
     print ("\(maincharacterName) walked away from \(friendName) to think about her decision.")
     
@@ -54,10 +54,10 @@ func chapterThree() {
         print("What do you think, \(decision)")
     }
     
-
+    
     //    print ("\(friendName) said to \(maincharacterName) if you do not go into the rocket the island will be destroyed, we all will be destroyed.  ")
     
-           print("\(friendName) said that if you don't help")
+    print("\(friendName) said that if you don't help")
     
     //    inner loop
     var noun = ["the water", " the trees", " the creators", "everything"]
@@ -65,7 +65,7 @@ func chapterThree() {
     
     for i in 0..<noun.count {
         var str = "\(noun[i]) will"
-
+        
         
         for _ in 1...3 {
             str += " \(actions[i])"
@@ -74,10 +74,10 @@ func chapterThree() {
         print(str)
         
         
-    
-    print ("\(maincharacterName) left \(friendName) and traveled to the rocket site.")
-    print ("\(maincharacterName) walked into the huge building")
-    
+        
+        print ("\(maincharacterName) left \(friendName) and traveled to the rocket site.")
+        print ("\(maincharacterName) walked into the huge building")
+        
         //    condition
         let isSave: Bool = true
         if isSave {
@@ -101,4 +101,5 @@ func chapterThree() {
         
     }
     
-
+    
+}
